@@ -235,7 +235,7 @@ body {
   .scroll {
     height: 45px;
     width: 45px;
-    background-color: var(--clr-primary);
+    background-color: var(--black-clr);
     position: fixed;
     bottom: -50%;
     right: 20px;
@@ -470,8 +470,9 @@ main {
               line-height: 0.9;
             }
             .des {
-              max-width: 25rem;
+              max-width: 15rem;
               color: var(--text-clr);
+              font-weight: var(--medium);
             }
             .btn-div {
               gap: 1rem;
@@ -486,7 +487,7 @@ main {
               }
               a:last-child {
                 background-color: transparent;
-                border: 1px solid #fbb040;
+                border: 1px solid #ffffff;
                 color: var(--clr-primary);
                 z-index: 100;
               }
@@ -515,7 +516,7 @@ main {
       height: 400px;
       left: -338px;
       top: 0;
-      background: #ffc438;
+      background: white;
       border-radius: 240.5px;
     }
 
@@ -739,7 +740,7 @@ main {
     .container {
       .row {
         article {
-          // background: url(../images/joinbg.png) no-repeat center;
+          background: url(../images/joinbg.png) no-repeat center;
           background-color: rgba(29, 29, 29, 1);
           background-color: var(--black-clr);
           min-height: 268px;
@@ -772,16 +773,16 @@ main {
             align-items: center;
 
             .btn:nth-child(1) {
-              background-color: var(--btn-blue);
+              background-color: #ff0000;
               color: var(--white);
             }
             .btn:nth-child(1):hover {
-              background-color: #06bcf3;
+              background-color: #8b0000;
             }
             .btn:last-child {
-              border: 1px solid #fbb040;
+              border: 1px solid #8b0000;
               background-color: transparent;
-              color: var(--btn-clr);
+              color: var(--white);
             }
             .btn {
               border-radius: 0;
@@ -844,12 +845,15 @@ main {
 
             a:hover {
               background-color: var(--clr-primary);
+              i {
+                color: var(--body-clr);
+              }
             }
 
             a {
               width: 30.8px;
               height: 30.8px;
-              background: #ffc53a;
+              background: #ff0000;
               border-radius: 3.27097px;
               display: grid;
               place-items: center;
@@ -875,63 +879,6 @@ main {
         text-align: center;
         p {
           cursor: pointer;
-        }
-      }
-    }
-  }
-
-  #whitePaper {
-    display: grid;
-    place-items: center;
-    padding: 40px 0;
-
-    .container {
-      height: 100%;
-
-      .row {
-        display: grid;
-        place-items: center;
-        height: 100%;
-        width: 100%;
-        article {
-          height: 100%;
-          width: 100%;
-          .inner-article {
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 3rem;
-            flex-direction: column;
-
-            h1 {
-              font-size: 40px;
-              color: var(--clr-primary);
-              font-family: var(--Barlow);
-              font-weight: var(--Bold);
-              text-transform: uppercase;
-            }
-
-            h2 {
-              text-align: center;
-              font-family: var(--Barlow);
-              font-weight: var(--ExtraBold);
-              text-transform: capitalize;
-              font-size: 65px;
-              animation-name: hue;
-              color: var(--clr-primary);
-              animation-duration: 1s;
-              animation-iteration-count: infinite;
-              animation-play-state: running;
-              display: block;
-              line-height: 0.8;
-            }
-            @keyframes hue {
-              to {
-                filter: hue-rotate(60deg);
-              }
-            }
-          }
         }
       }
     }
