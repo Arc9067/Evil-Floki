@@ -109,14 +109,14 @@ body .loader .inner-loader {
 body .loader .inner-loader .circle {
   height: 50px;
   width: 50px;
-  background-color: orange;
+  background-color: white;
   border-radius: 50%;
 }
 body .loader .inner-loader .circle:nth-child(2) {
-  background-color: var(--clr-sec);
+  background-color: #ff0000;
 }
 body .loader .inner-loader .circle:nth-child(3) {
-  color: var(--btn-clr);
+  color: #fff;
 }
 body .hamburger {
   height: 50px;

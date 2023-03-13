@@ -114,14 +114,14 @@ body {
       .circle {
         height: 50px;
         width: 50px;
-        background-color: orange;
+        background-color: white;
         border-radius: 50%;
       }
       .circle:nth-child(2) {
-        background-color: var(--clr-sec);
+        background-color: #ff0000;
       }
       .circle:nth-child(3) {
-        color: var(--btn-clr);
+        color: #fff;
       }
     }
   }
