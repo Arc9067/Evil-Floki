@@ -1,35 +1,19 @@
-<!-- # Half shiba Official Website
+# EVil Floki - web app
 
-This is a readme file for halfshiba Official Coin
+This is the Website Of the EVil Floki Project
 
-## Technologies used
+### Screenshot
 
-#### Below Are the Technologies used in this project
+![](./images/preview.png)
 
-- `HTML5` for struturing the website / Website Content
+### Links
 
-- `CSS` for Styling the website
+- Website URL: [Visit Website](http://Fkilswap.com)
 
-- `SASS` for adding addiional functions to the webisite
+### Built with
 
-- `JAVASCRIPT` for adding addiional functions to the webisite
-
-## Website Preview
-
-#### mobile Preview
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/1.png?raw=true)
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/2.png?raw=true)
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/3.png?raw=true)
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/4.png?raw=true)
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/5.png?raw=true)
-
-![alt text](https://github.com/Arc9067/half-shiba/blob/main/images/screenshot/6.png?raw=true)
-
-### Link to website Preview
-
-[Official website](https://halfshiba.site/) -->
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Javascript
